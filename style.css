@@ -8,6 +8,12 @@
   --radius: 10px;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html,body{
   height:100%;
 }
@@ -52,7 +58,7 @@ header{
   box-shadow: 0 6px 20px rgba(43,110,246,0.18);
 }
 
-main{
+main, .main{
   max-width: 960px;
   margin: 2.25rem auto;
   padding: 2rem;
